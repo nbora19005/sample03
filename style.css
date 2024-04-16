@@ -1,0 +1,203 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+.main1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   /* border: 2px solid black; */
+   background-image: url("outter.png");
+
+   
+  
+}
+.main2{padding-left: 40px;
+    /* border: 2px solid black; */
+    height: 85vh;
+    width: 90svw;
+    overflow: hidden;
+    box-shadow: 0px -2px 60px 2px rgba(0,0,0,0.75);
+ border-radius: 10px;
+ /* padding-bottom: 30rem;*/
+ background-image: url("bg2.jpg");
+ background-size: cover;
+ 
+    
+}
+
+
+.content{
+   /* border: 2px solid black; */
+   width: 100vw;
+   height: 50vh;
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   padding-top: 30px;
+}
+
+h1{
+color: green;
+font-family: "Luckiest Guy","Lobster", "cursive";
+font-size: 4rem;
+/* font-weight: ; */
+padding-bottom: 10px;
+line-height: 1.1;
+letter-spacing: 2.5px;
+/* height: 20px; */
+
+/* padding-bottom: 20px; */
+}
+.maincontent{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.image{
+    margin-top: -140px;
+    width: 50vw;
+    margin-left: -200px;
+    /* border: 2px solid black; */
+}
+.png1{
+    /* padding-top: -120px; */
+    height: 600px;
+    /* margin-left: 40px; */
+    
+    /* width: 100px; */
+}
+.heading{
+    margin-top: 30px;
+    height: auto;
+    width: 40vw;
+    /* border: 2px solid black; */
+}
+.button{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.button button
+{ background-color: #ff7300; /* Green */
+    border: 2px solid orangered;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}   
+
+.parent{
+    margin: 0px 6rem;
+    border: 2px solid orangered;
+    height: 210px;
+    width: 180px;
+    background-color: #ff7300;
+    color: aliceblue;
+    margin-right:2rem ;
+    border-radius: 15px;
+    overflow: hidden;
+    /* margin-bottom: 20rem;       */
+}
+
+.children{
+    margin: 0px 0rem;
+    border: 2px solid orangered;
+    border-radius: 15px;
+    height: 210px;
+    width: 180px;
+    background-color: #ff7300;
+    color: aliceblue;
+
+}
+
+.parentcontent{
+    height: 100px ;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.png2{
+    height: 90px;
+    padding-bottom: 10px;
+    /* width: 2px; */
+}
+.parentheader{
+   text-align: center;
+   padding: 5px;
+}
+
+.parentbutton button{
+    /* height: 1rem;
+    width: 4rem; */
+    border: 2px solid green;
+    color: white;
+    background-color: rgb(49, 186, 19);
+    
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+button:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.parentbutton{
+    display: flex;
+    justify-content: center;
+}
+.childrencontent{
+    height: 100px ;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.png3{
+    height: 80px;
+    padding-bottom: 10px;
+    /* width: 2px; */
+}
+.childrenheader{
+   text-align: center;
+   padding: 5px;
+}
+
+.childrenbutton button{
+    /* height: 1rem;
+    width: 4rem; */
+    border: 2px solid green;
+    color: white;
+    background-color: rgb(49, 186, 19);
+    transform: 1.2;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+.childrenbutton{
+    display: flex;
+    justify-content: center;
+}
+
